@@ -1,13 +1,246 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CitiesInfrastrcture",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cities_infrastrcture"
+    },
+    {
+      "name": "Signs",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "signs"
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items"
+    },
+    {
+      "name": "TransportInfrastructure",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transport_infrastructure"
+    },
+    {
+      "name": "RoadInfrastructure",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_infrastructure"
+    },
+    {
+      "name": "Sign11",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_11",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign12",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_12",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign131",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_131",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign132",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_132",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign141",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_141",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign142",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_142",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign143",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_143",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign144",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_144",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign145",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_145",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign146",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_146",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign15",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_15",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign16",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_16",
+      "path": "~/Signs/1"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabcities_infrastrcture": "Cities Infrastructure",
+      "itemGroup.tabsigns": "Signs",
+      "block.ui.sign_146": "Sign 1.4.6",
+      "block.ui.sign_145": "Sign 1.4.5",
+      "block.ui.sign_144": "Sign 1.4.4",
+      "block.ui.sign_16": "Sign 1.6",
+      "block.ui.sign_15": "Sign 1.5",
+      "block.ui.sign_12": "Sign 1.2",
+      "block.ui.sign_132": "Sign 1.3.2",
+      "block.ui.sign_143": "Sign 1.4.3",
+      "block.ui.sign_131": "Sign 1.3.1",
+      "block.ui.sign_142": "Sign 1.4.2",
+      "block.ui.sign_141": "Sign 1.4.1",
+      "block.ui.sign_11": "Sign 1.1",
+      "itemGroup.tabroad_infrastructure": "Road Infrastructure",
+      "itemGroup.tabitems": "Items",
+      "itemGroup.tabtransport_infrastructure": "Transport Infrastructure"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Cities Infrastructure",
+        "children": []
+      },
+      {
+        "name": "Road Infrastructure",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Procedurec",
+        "children": []
+      },
+      {
+        "name": "Money System",
+        "children": []
+      },
+      {
+        "name": "Transport Infrastructure",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Signs",
+        "children": [
+          {
+            "name": "1",
+            "children": []
+          },
+          {
+            "name": "2",
+            "children": []
+          },
+          {
+            "name": "3",
+            "children": []
+          },
+          {
+            "name": "4",
+            "children": []
+          },
+          {
+            "name": "5",
+            "children": []
+          },
+          {
+            "name": "6",
+            "children": []
+          },
+          {
+            "name": "7",
+            "children": []
+          },
+          {
+            "name": "8",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "ui",

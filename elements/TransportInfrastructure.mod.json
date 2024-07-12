@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Transport Infrastructure",
+    "icon": {
+      "value": "Blocks.RED_MUSHROOM_BLOCK"
+    },
+    "showSearch": false
+  }
+}

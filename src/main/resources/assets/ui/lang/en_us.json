@@ -1,1 +1,19 @@
-{}
+{
+  "itemGroup.tabcities_infrastrcture": "Cities Infrastructure",
+  "itemGroup.tabsigns": "Signs",
+  "block.ui.sign_146": "Sign 1.4.6",
+  "block.ui.sign_145": "Sign 1.4.5",
+  "block.ui.sign_144": "Sign 1.4.4",
+  "block.ui.sign_16": "Sign 1.6",
+  "block.ui.sign_15": "Sign 1.5",
+  "block.ui.sign_12": "Sign 1.2",
+  "block.ui.sign_132": "Sign 1.3.2",
+  "block.ui.sign_143": "Sign 1.4.3",
+  "block.ui.sign_131": "Sign 1.3.1",
+  "block.ui.sign_142": "Sign 1.4.2",
+  "block.ui.sign_141": "Sign 1.4.1",
+  "block.ui.sign_11": "Sign 1.1",
+  "itemGroup.tabroad_infrastructure": "Road Infrastructure",
+  "itemGroup.tabitems": "Items",
+  "itemGroup.tabtransport_infrastructure": "Transport Infrastructure"
+}
