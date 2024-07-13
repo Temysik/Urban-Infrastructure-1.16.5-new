@@ -4,7 +4,7 @@
   "definition": {
     "name": "Signs",
     "icon": {
-      "value": "Blocks.LAPIS_BLOCK"
+      "value": "CUSTOM:Sign12"
     },
     "showSearch": true
   }

@@ -147,29 +147,389 @@
       "locked_code": false,
       "registry_name": "sign_16",
       "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign17",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_17",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign18",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_18",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign19",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_19",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign110",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_110",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1111",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1111",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1112",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1112",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1121",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1121",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1122",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1122",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign113",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_113",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign114",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_114",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign115",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_115",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign116",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_116",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign117",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_117",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign118",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_118",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign119",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_119",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1201",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1201",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1202",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1202",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign1203",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1203",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign121",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_121",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign122",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_122",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign123",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_123",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign124",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_124",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign125",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_125",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign126",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_126",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign127",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_127",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign128",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_128",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign129",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_129",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign130",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_130",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign131odin",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_131odin",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign132odin",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_132odin",
+      "path": "~/Signs/1"
+    },
+    {
+      "name": "Sign133",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_133",
+      "path": "~/Signs/2"
+    },
+    {
+      "name": "Sign1341",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1341",
+      "path": "~/Signs/2"
+    },
+    {
+      "name": "Sign1342",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1342",
+      "path": "~/Signs/2"
+    },
+    {
+      "name": "Sign1343",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_1343",
+      "path": "~/Signs/2"
+    },
+    {
+      "name": "Sign135",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_135",
+      "path": "~/Signs/2"
+    },
+    {
+      "name": "Sign21",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_21",
+      "path": "~/Signs/2"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabcities_infrastrcture": "Cities Infrastructure",
-      "itemGroup.tabsigns": "Signs",
       "block.ui.sign_146": "Sign 1.4.6",
       "block.ui.sign_145": "Sign 1.4.5",
       "block.ui.sign_144": "Sign 1.4.4",
+      "block.ui.sign_1341": "Sign 1.34.1",
+      "block.ui.sign_1342": "Sign 1.34.2",
+      "block.ui.sign_1343": "Sign 1.34.3",
+      "block.ui.sign_132odin": "Sign 1.32",
+      "block.ui.sign_143": "Sign 1.4.3",
+      "block.ui.sign_142": "Sign 1.4.2",
+      "block.ui.sign_141": "Sign 1.4.1",
+      "block.ui.sign_21": "Sign 2.1",
+      "block.ui.sign_135": "Sign 1.35",
+      "block.ui.sign_133": "Sign 1.33",
+      "block.ui.sign_1111": "Sign 1.11.1",
+      "block.ui.sign_1112": "Sign 1.11.2",
       "block.ui.sign_16": "Sign 1.6",
+      "block.ui.sign_17": "Sign 1.7",
       "block.ui.sign_15": "Sign 1.5",
       "block.ui.sign_12": "Sign 1.2",
       "block.ui.sign_132": "Sign 1.3.2",
-      "block.ui.sign_143": "Sign 1.4.3",
       "block.ui.sign_131": "Sign 1.3.1",
-      "block.ui.sign_142": "Sign 1.4.2",
-      "block.ui.sign_141": "Sign 1.4.1",
+      "block.ui.sign_130": "Sign 1.30",
       "block.ui.sign_11": "Sign 1.1",
-      "itemGroup.tabroad_infrastructure": "Road Infrastructure",
+      "block.ui.sign_18": "Sign 1.8",
+      "block.ui.sign_19": "Sign 1.9",
+      "itemGroup.tabtransport_infrastructure": "Transport Infrastructure",
+      "block.ui.sign_1202": "Sign 1.20.2",
+      "block.ui.sign_125": "Sign 1.25",
+      "itemGroup.tabsigns": "Signs",
+      "itemGroup.tabcities_infrastrcture": "Cities Infrastructure",
+      "block.ui.sign_1203": "Sign 1.20.3",
+      "block.ui.sign_124": "Sign 1.24",
+      "block.ui.sign_123": "Sign 1.23",
+      "block.ui.sign_122": "Sign 1.22",
+      "block.ui.sign_1121": "Sign 1.12.1",
+      "block.ui.sign_129": "Sign 1.29",
+      "block.ui.sign_1122": "Sign 1.12.2",
+      "block.ui.sign_128": "Sign 1.28",
+      "block.ui.sign_127": "Sign 1.27",
+      "block.ui.sign_1201": "Sign 1.20.1",
+      "block.ui.sign_126": "Sign 1.26",
+      "block.ui.sign_121": "Sign 1.21",
       "itemGroup.tabitems": "Items",
-      "itemGroup.tabtransport_infrastructure": "Transport Infrastructure"
+      "block.ui.sign_114": "Sign 1.14",
+      "block.ui.sign_113": "Sign 1.13",
+      "block.ui.sign_118": "Sign 1.18",
+      "block.ui.sign_117": "Sign 1.17",
+      "block.ui.sign_116": "Sign 1.16",
+      "block.ui.sign_115": "Sign 1.15",
+      "block.ui.sign_110": "Sign 1.10",
+      "itemGroup.tabroad_infrastructure": "Road Infrastructure",
+      "block.ui.sign_119": "Sign 1.19",
+      "block.ui.sign_131odin": "Sign 1.31"
     }
   },
   "foldersRoot": {
