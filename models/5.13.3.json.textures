@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "5.13.3"
+      },
+      "name": "default"
+    }
+  }
+}
