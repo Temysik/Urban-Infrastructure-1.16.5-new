@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/7.20",
+  "textures": {
+    "all": "ui:blocks/7.20",
+    "particle": "ui:blocks/7.20",
+    "0": "ui:blocks/7.20"
+  }
+}

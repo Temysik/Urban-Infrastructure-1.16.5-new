@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/6.8.3",
+  "textures": {
+    "all": "ui:blocks/6.8.3",
+    "particle": "ui:blocks/6.8.3",
+    "1": "ui:blocks/6.8.3"
+  }
+}
