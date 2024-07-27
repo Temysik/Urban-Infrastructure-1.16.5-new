@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/sign_8221odin"
+    },
+    "facing=east": {
+      "model": "ui:block/sign_8221odin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/sign_8221odin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/sign_8221odin",
+      "y": 270
+    }
+  }
+}
