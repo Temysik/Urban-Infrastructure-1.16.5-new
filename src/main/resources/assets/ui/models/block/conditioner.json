@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/conditioner",
+  "textures": {
+    "all": "ui:blocks/conditioner_texture",
+    "particle": "ui:blocks/conditioner_texture",
+    "0": "ui:blocks/conditioner_texture"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/kassa_computer",
+  "textures": {
+    "all": "ui:blocks/kassa_computer_texture",
+    "particle": "ui:blocks/kassa_computer_texture",
+    "0": "ui:blocks/kassa_computer_texture"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "exitable_light_texture"
+      },
+      "name": "default"
+    }
+  }
+}

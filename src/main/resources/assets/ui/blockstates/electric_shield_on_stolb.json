@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/electric_shield_on_stolb"
+    },
+    "facing=east": {
+      "model": "ui:block/electric_shield_on_stolb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/electric_shield_on_stolb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/electric_shield_on_stolb",
+      "y": 270
+    }
+  }
+}

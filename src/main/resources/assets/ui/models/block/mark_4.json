@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/mark4",
+  "textures": {
+    "all": "ui:blocks/block4",
+    "particle": "ui:blocks/block4",
+    "0": "ui:blocks/block4"
+  }
+}

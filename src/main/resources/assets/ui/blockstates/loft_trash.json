@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/loft_trash"
+    },
+    "facing=east": {
+      "model": "ui:block/loft_trash",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/loft_trash",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/loft_trash",
+      "y": 270
+    }
+  }
+}

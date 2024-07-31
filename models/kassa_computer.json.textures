@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "kassa_computer_texture"
+      },
+      "name": "default"
+    }
+  }
+}

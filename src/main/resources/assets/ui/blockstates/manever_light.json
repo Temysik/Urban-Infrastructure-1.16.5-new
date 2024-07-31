@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/manever_light"
+    },
+    "facing=east": {
+      "model": "ui:block/manever_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/manever_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/manever_light",
+      "y": 270
+    }
+  }
+}

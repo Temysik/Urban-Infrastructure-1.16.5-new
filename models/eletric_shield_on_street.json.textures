@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "electric_shield_on_street_texture"
+      },
+      "name": "default"
+    }
+  }
+}

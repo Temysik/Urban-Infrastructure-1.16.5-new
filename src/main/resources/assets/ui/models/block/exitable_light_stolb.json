@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/exitable_light_stolb",
+  "textures": {
+    "all": "ui:blocks/exitable_light_stolb_texture",
+    "particle": "ui:blocks/exitable_light_stolb_texture",
+    "1": "ui:blocks/exitable_light_stolb_texture"
+  }
+}

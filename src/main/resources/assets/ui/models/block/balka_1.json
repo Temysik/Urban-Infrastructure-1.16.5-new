@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/balka_1",
+  "textures": {
+    "all": "ui:blocks/balka_1_texture",
+    "particle": "ui:blocks/balka_1_texture",
+    "1": "ui:blocks/balka_1_texture"
+  }
+}

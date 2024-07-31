@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "magnit_4_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/electric-shield_on_stolb",
+  "textures": {
+    "all": "ui:blocks/electric-shield-on-stolb",
+    "particle": "ui:blocks/electric-shield-on-stolb",
+    "4": "ui:blocks/electric-shield-on-stolb"
+  }
+}

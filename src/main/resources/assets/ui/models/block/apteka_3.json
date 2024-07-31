@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/apteka3",
+  "textures": {
+    "all": "ui:blocks/apteka3",
+    "particle": "ui:blocks/apteka3",
+    "0": "ui:blocks/apteka3"
+  }
+}

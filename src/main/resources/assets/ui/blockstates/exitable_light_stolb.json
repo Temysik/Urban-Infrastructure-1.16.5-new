@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/exitable_light_stolb"
+    },
+    "facing=east": {
+      "model": "ui:block/exitable_light_stolb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/exitable_light_stolb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/exitable_light_stolb",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/betonzabor",
+  "textures": {
+    "all": "ui:blocks/betonzabor",
+    "particle": "ui:blocks/betonzabor",
+    "0": "ui:blocks/betonzabor"
+  }
+}

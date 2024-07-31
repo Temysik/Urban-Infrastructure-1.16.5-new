@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/konus"
+    },
+    "facing=east": {
+      "model": "ui:block/konus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/konus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/konus",
+      "y": 270
+    }
+  }
+}

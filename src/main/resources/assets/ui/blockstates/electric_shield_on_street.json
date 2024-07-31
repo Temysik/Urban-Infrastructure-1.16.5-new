@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/electric_shield_on_street"
+    },
+    "facing=east": {
+      "model": "ui:block/electric_shield_on_street",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/electric_shield_on_street",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/electric_shield_on_street",
+      "y": 270
+    }
+  }
+}

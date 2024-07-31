@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "intercom_domru_texture"
+      },
+      "name": "default"
+    }
+  }
+}

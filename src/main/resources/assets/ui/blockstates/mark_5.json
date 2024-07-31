@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/mark_5"
+    },
+    "facing=east": {
+      "model": "ui:block/mark_5",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/mark_5",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/mark_5",
+      "y": 270
+    }
+  }
+}

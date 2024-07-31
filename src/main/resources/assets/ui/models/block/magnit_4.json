@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/magnit4",
+  "textures": {
+    "all": "ui:blocks/magnit_4_texture",
+    "particle": "ui:blocks/magnit_4_texture",
+    "0": "ui:blocks/magnit_4_texture"
+  }
+}

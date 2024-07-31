@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/eletric_shield_on_street",
+  "textures": {
+    "all": "ui:blocks/electric_shield_on_street_texture",
+    "particle": "ui:blocks/electric_shield_on_street_texture",
+    "0": "ui:blocks/electric_shield_on_street_texture"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/bottle_777",
+  "textures": {
+    "all": "ui:blocks/bottle_texture",
+    "particle": "ui:blocks/bottle_texture",
+    "0": "ui:blocks/bottle_texture"
+  }
+}

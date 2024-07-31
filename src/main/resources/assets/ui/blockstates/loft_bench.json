@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/loft_bench"
+    },
+    "facing=east": {
+      "model": "ui:block/loft_bench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/loft_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/loft_bench",
+      "y": 270
+    }
+  }
+}

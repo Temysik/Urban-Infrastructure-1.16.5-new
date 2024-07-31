@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "curb2_texture"
+      },
+      "name": "default"
+    }
+  }
+}

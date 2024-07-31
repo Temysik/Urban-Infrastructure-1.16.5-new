@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "exitable_light_stolb_texture"
+      },
+      "name": "default"
+    }
+  }
+}
