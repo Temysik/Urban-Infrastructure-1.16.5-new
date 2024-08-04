@@ -7,6 +7,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -72,6 +76,30 @@ public class ElectricShieldOnStreetBlock extends UiModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 8, 0, 32, 0), makeCuboidShape(15.5, 0, 8.5, 0.5, 32, 8))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 8, 16, 32, 16), makeCuboidShape(0.5, 0, 7.5, 15.5, 32, 8))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(8, 0, 0, 0, 32, 16), makeCuboidShape(8.5, 0, 0.5, 8, 32, 15.5))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(8, 0, 16, 16, 32, 0), makeCuboidShape(7.5, 0, 15.5, 8, 32, 0.5))
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override

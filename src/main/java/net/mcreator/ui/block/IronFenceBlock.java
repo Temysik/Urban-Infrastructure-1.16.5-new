@@ -7,6 +7,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -72,6 +76,30 @@ public class IronFenceBlock extends UiModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 3, 1, 31, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 13, 15, 31, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(3, 0, 0, 0, 31, 15))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(13, 0, 16, 16, 31, 1))
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override

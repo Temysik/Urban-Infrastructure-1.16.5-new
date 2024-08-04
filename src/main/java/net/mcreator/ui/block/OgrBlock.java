@@ -7,6 +7,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -72,6 +76,30 @@ public class OgrBlock extends UiModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(17, 0, 5, -15, 31, -3))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes.or(makeCuboidShape(-1, 0, 11, 31, 31, 19))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(5, 0, -1, -3, 31, 31))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(11, 0, 17, 19, 31, -15))
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override

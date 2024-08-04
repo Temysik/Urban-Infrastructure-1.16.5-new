@@ -7,6 +7,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -72,6 +76,46 @@ public class TrashCanBigBlock extends UiModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(2, 0, 15.9, 0, 2, 13.9), makeCuboidShape(2, 0, 1.9, 0, 2, -0.1),
+							makeCuboidShape(16, 0, 1.9, 14, 2, -0.1), makeCuboidShape(16, 0, 15.9, 14, 2, 13.9),
+							makeCuboidShape(17, 2, 17, -1, 3, -1), makeCuboidShape(16, 3, 17, 0, 18, 16), makeCuboidShape(17, 3, 17, 16, 18, 0),
+							makeCuboidShape(0, 3, 17, -1, 18, 0), makeCuboidShape(17, 3, 0, -1, 18, -1), makeCuboidShape(-1, 15, 10, -2, 18, 7),
+							makeCuboidShape(18, 15, 10, 17, 18, 7), makeCuboidShape(19, 16, 9, 18, 17, 8), makeCuboidShape(-2, 16, 9, -3, 17, 8))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes.or(makeCuboidShape(14, 0, 0.1, 16, 2, 2.1), makeCuboidShape(14, 0, 14.1, 16, 2, 16.1),
+							makeCuboidShape(0, 0, 14.1, 2, 2, 16.1), makeCuboidShape(0, 0, 0.1, 2, 2, 2.1), makeCuboidShape(-1, 2, -1, 17, 3, 17),
+							makeCuboidShape(0, 3, -1, 16, 18, 0), makeCuboidShape(-1, 3, -1, 0, 18, 16), makeCuboidShape(16, 3, -1, 17, 18, 16),
+							makeCuboidShape(-1, 3, 16, 17, 18, 17), makeCuboidShape(17, 15, 6, 18, 18, 9), makeCuboidShape(-2, 15, 6, -1, 18, 9),
+							makeCuboidShape(-3, 16, 7, -2, 17, 8), makeCuboidShape(18, 16, 7, 19, 17, 8))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(15.9, 0, 14, 13.9, 2, 16), makeCuboidShape(1.9, 0, 14, -0.1, 2, 16),
+							makeCuboidShape(1.9, 0, 0, -0.1, 2, 2), makeCuboidShape(15.9, 0, 0, 13.9, 2, 2), makeCuboidShape(17, 2, -1, -1, 3, 17),
+							makeCuboidShape(17, 3, 0, 16, 18, 16), makeCuboidShape(17, 3, -1, 0, 18, 0), makeCuboidShape(17, 3, 16, 0, 18, 17),
+							makeCuboidShape(0, 3, -1, -1, 18, 17), makeCuboidShape(10, 15, 17, 7, 18, 18), makeCuboidShape(10, 15, -2, 7, 18, -1),
+							makeCuboidShape(9, 16, -3, 8, 17, -2), makeCuboidShape(9, 16, 18, 8, 17, 19))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(0.1, 0, 2, 2.1, 2, 0), makeCuboidShape(14.1, 0, 2, 16.1, 2, 0),
+							makeCuboidShape(14.1, 0, 16, 16.1, 2, 14), makeCuboidShape(0.1, 0, 16, 2.1, 2, 14), makeCuboidShape(-1, 2, 17, 17, 3, -1),
+							makeCuboidShape(-1, 3, 16, 0, 18, 0), makeCuboidShape(-1, 3, 17, 16, 18, 16), makeCuboidShape(-1, 3, 0, 16, 18, -1),
+							makeCuboidShape(16, 3, 17, 17, 18, -1), makeCuboidShape(6, 15, -1, 9, 18, -2), makeCuboidShape(6, 15, 18, 9, 18, 17),
+							makeCuboidShape(7, 16, 19, 8, 17, 18), makeCuboidShape(7, 16, -2, 8, 17, -3))
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override

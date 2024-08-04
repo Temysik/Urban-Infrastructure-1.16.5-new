@@ -7,6 +7,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -72,6 +76,38 @@ public class OstanovkaBlock extends UiModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes
+							.or(makeCuboidShape(32, -16, 16, 30, 24, 1), makeCuboidShape(32, 24, 1, -15, -16, 2),
+									makeCuboidShape(-15, -16, 1, -14, 24, 16), makeCuboidShape(-15, 23, 22, 32, 24, 1))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes
+							.or(makeCuboidShape(-16, -16, 0, -14, 24, 15), makeCuboidShape(-16, 24, 15, 31, -16, 14),
+									makeCuboidShape(31, -16, 15, 30, 24, 0), makeCuboidShape(31, 23, -6, -16, 24, 15))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes
+							.or(makeCuboidShape(16, -16, -16, 1, 24, -14), makeCuboidShape(1, 24, -16, 2, -16, 31),
+									makeCuboidShape(1, -16, 31, 16, 24, 30), makeCuboidShape(22, 23, 31, 1, 24, -16))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes
+							.or(makeCuboidShape(0, -16, 32, 15, 24, 30), makeCuboidShape(15, 24, 32, 14, -16, -15),
+									makeCuboidShape(15, -16, -15, 0, 24, -14), makeCuboidShape(-6, 23, -15, 15, 24, 32))
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override
