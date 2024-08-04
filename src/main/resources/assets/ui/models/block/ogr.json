@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/ogr",
+  "textures": {
+    "all": "ui:blocks/ogr_texture",
+    "particle": "ui:blocks/ogr_texture",
+    "0": "ui:blocks/ogr_texture"
+  }
+}

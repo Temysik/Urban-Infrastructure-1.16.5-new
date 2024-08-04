@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/temporarymark11",
+  "textures": {
+    "all": "ui:blocks/temporarymark11",
+    "particle": "ui:blocks/temporarymark11",
+    "0": "ui:blocks/temporarymark11"
+  }
+}

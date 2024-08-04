@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/tv_station"
+    },
+    "facing=east": {
+      "model": "ui:block/tv_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/tv_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/tv_station",
+      "y": 270
+    }
+  }
+}

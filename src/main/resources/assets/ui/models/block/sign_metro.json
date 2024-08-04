@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/sign_metro",
+  "textures": {
+    "all": "ui:blocks/sign_metro_texture",
+    "particle": "ui:blocks/sign_metro_texture",
+    "0": "ui:blocks/sign_metro_texture"
+  }
+}

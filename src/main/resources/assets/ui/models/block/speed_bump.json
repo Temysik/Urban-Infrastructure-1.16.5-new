@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/speed-bump",
+  "textures": {
+    "all": "ui:blocks/speed-bump_texture",
+    "particle": "ui:blocks/speed-bump_texture",
+    "0": "ui:blocks/speed-bump_texture"
+  }
+}

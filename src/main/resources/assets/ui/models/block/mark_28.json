@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/mark28",
+  "textures": {
+    "all": "ui:blocks/block28",
+    "particle": "ui:blocks/block28",
+    "0": "ui:blocks/block28"
+  }
+}

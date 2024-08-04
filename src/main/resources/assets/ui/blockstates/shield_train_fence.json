@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/shield_train_fence"
+    },
+    "facing=east": {
+      "model": "ui:block/shield_train_fence",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/shield_train_fence",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/shield_train_fence",
+      "y": 270
+    }
+  }
+}

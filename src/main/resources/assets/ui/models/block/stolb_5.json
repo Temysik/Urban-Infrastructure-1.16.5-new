@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/stolb_5",
+  "textures": {
+    "all": "ui:blocks/stolb1",
+    "particle": "ui:blocks/stolb1",
+    "0": "ui:blocks/stolb1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "svetofor2_animated"
+      },
+      "name": "default"
+    }
+  }
+}

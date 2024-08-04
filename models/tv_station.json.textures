@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tv_station_texture"
+      },
+      "name": "default"
+    }
+  }
+}

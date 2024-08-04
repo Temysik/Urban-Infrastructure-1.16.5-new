@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "markup_before_ways_texture"
+      },
+      "name": "default"
+    }
+  }
+}

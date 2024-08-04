@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/mark15",
+  "textures": {
+    "all": "ui:blocks/block15",
+    "particle": "ui:blocks/block15",
+    "0": "ui:blocks/block15"
+  }
+}

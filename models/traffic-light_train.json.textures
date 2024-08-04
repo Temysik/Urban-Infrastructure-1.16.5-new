@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "traffic-light_trains_texture"
+      },
+      "name": "default"
+    }
+  }
+}

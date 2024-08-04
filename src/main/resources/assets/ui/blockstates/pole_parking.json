@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/pole_parking"
+    },
+    "facing=east": {
+      "model": "ui:block/pole_parking",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/pole_parking",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/pole_parking",
+      "y": 270
+    }
+  }
+}

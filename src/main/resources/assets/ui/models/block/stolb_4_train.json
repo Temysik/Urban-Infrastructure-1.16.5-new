@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/stolb_4-train",
+  "textures": {
+    "all": "ui:blocks/stolb_4-train_texture",
+    "particle": "ui:blocks/stolb_4-train_texture",
+    "0": "ui:blocks/stolb_4-train_texture"
+  }
+}

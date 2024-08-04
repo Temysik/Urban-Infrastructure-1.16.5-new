@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "otboynik_twoside_texture"
+      },
+      "name": "default"
+    }
+  }
+}

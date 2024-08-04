@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/railway_shield",
+  "textures": {
+    "all": "ui:blocks/railway-shield_close_texture",
+    "particle": "ui:blocks/railway-shield_close_texture",
+    "0": "ui:blocks/railway-shield_close_texture"
+  }
+}

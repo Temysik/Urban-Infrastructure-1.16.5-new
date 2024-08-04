@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/ozon1",
+  "textures": {
+    "all": "ui:blocks/ozon1_texture",
+    "particle": "ui:blocks/ozon1_texture",
+    "0": "ui:blocks/ozon1_texture"
+  }
+}

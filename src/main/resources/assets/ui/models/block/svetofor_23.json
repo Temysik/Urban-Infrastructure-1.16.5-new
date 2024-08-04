@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/svetofor23",
+  "textures": {
+    "all": "ui:blocks/svetofor23_animated",
+    "particle": "ui:blocks/svetofor23_animated",
+    "0": "ui:blocks/svetofor23_animated"
+  }
+}

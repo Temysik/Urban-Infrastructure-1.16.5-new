@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/temporary26",
+  "textures": {
+    "all": "ui:blocks/temporary26",
+    "particle": "ui:blocks/temporary26",
+    "1": "ui:blocks/temporary26"
+  }
+}

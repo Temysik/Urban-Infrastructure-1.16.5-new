@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/otboinik_twoside",
+  "textures": {
+    "all": "ui:blocks/otboynik_twoside_texture",
+    "particle": "ui:blocks/otboynik_twoside_texture",
+    "0": "ui:blocks/otboynik_twoside_texture"
+  }
+}

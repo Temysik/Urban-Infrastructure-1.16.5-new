@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/pole_parking",
+  "textures": {
+    "all": "ui:blocks/pole_parking_texture",
+    "particle": "ui:blocks/pole_parking_texture",
+    "0": "ui:blocks/pole_parking_texture"
+  }
+}

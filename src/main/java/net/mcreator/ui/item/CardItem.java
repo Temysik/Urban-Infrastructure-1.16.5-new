@@ -27,7 +27,7 @@ public class CardItem extends UiModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemsItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("card");
 		}
 

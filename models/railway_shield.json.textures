@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "railway-shield_close_texture"
+      },
+      "name": "default"
+    }
+  }
+}

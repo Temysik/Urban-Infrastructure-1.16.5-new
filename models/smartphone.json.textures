@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smartphone_texture"
+      },
+      "name": "default"
+    }
+  }
+}

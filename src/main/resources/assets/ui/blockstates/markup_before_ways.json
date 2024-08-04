@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/markup_before_ways"
+    },
+    "facing=east": {
+      "model": "ui:block/markup_before_ways",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/markup_before_ways",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/markup_before_ways",
+      "y": 270
+    }
+  }
+}

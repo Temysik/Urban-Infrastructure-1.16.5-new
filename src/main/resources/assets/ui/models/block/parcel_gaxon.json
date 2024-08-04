@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/parcel-automat_ozon",
+  "textures": {
+    "all": "ui:blocks/parcel-automat_gazon_texture",
+    "particle": "ui:blocks/parcel-automat_gazon_texture",
+    "0": "ui:blocks/parcel-automat_gazon_texture"
+  }
+}

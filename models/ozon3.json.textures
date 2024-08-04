@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "ozon3_texture"
+      },
+      "name": "default"
+    }
+  }
+}

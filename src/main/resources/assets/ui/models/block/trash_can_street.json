@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/trashcan_street",
+  "textures": {
+    "all": "ui:blocks/trashcan_street_texture",
+    "particle": "ui:blocks/trashcan_street_texture",
+    "1": "ui:blocks/trashcan_street_texture"
+  }
+}

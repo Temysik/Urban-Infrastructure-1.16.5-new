@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "station_sign_texture"
+      },
+      "name": "default"
+    }
+  }
+}

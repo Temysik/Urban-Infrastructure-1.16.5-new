@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/ogr"
+    },
+    "facing=east": {
+      "model": "ui:block/ogr",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/ogr",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/ogr",
+      "y": 270
+    }
+  }
+}

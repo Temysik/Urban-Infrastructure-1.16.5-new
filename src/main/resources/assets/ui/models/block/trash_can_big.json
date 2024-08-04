@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/trash-can_big",
+  "textures": {
+    "all": "ui:blocks/trash-can_big_without_texture",
+    "particle": "ui:blocks/trash-can_big_without_texture",
+    "0": "ui:blocks/trash-can_big_without_texture"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/storage_box",
+  "textures": {
+    "all": "ui:blocks/storage-box_texture",
+    "particle": "ui:blocks/storage-box_texture",
+    "0": "ui:blocks/storage-box_texture"
+  }
+}

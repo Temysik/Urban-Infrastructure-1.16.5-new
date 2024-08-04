@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/ostanovka"
+    },
+    "facing=east": {
+      "model": "ui:block/ostanovka",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/ostanovka",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/ostanovka",
+      "y": 270
+    }
+  }
+}

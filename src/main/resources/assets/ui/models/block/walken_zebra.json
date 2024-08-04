@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/walken-zebra",
+  "textures": {
+    "all": "ui:blocks/walken-zebra_texture",
+    "particle": "ui:blocks/walken-zebra_texture",
+    "0": "ui:blocks/walken-zebra_texture"
+  }
+}

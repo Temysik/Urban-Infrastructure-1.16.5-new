@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "parcel-automat_gazon_texture"
+      },
+      "name": "default"
+    }
+  }
+}

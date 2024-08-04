@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/water-filling_barrier_red",
+  "textures": {
+    "all": "ui:blocks/water-filling_barrier_red_texture",
+    "particle": "ui:blocks/water-filling_barrier_red_texture",
+    "0": "ui:blocks/water-filling_barrier_red_texture"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "shield_train_fence_texture"
+      },
+      "name": "default"
+    }
+  }
+}

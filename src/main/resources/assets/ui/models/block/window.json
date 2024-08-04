@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/window_new",
+  "textures": {
+    "all": "ui:blocks/window_new_texture",
+    "particle": "ui:blocks/window_new_texture",
+    "0": "ui:blocks/window_new_texture"
+  }
+}

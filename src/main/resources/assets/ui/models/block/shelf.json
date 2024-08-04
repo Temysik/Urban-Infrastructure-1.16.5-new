@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/shelf_without",
+  "textures": {
+    "all": "ui:blocks/shelf_shop_without_texture",
+    "particle": "ui:blocks/shelf_shop_without_texture",
+    "2": "ui:blocks/shelf_shop_without_texture"
+  }
+}

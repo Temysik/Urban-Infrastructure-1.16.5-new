@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stolb_4-train_texture"
+      },
+      "name": "default"
+    }
+  }
+}

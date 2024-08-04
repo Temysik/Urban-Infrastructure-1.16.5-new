@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/window"
+    },
+    "facing=east": {
+      "model": "ui:block/window",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/window",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/window",
+      "y": 270
+    }
+  }
+}

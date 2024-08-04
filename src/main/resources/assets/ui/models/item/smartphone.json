@@ -1,0 +1,7 @@
+{
+  "parent": "ui:custom/smartphone",
+  "textures": {
+    "0": "ui:blocks/smartphone_texture",
+    "particle": "ui:items/smartphone_texture"
+  }
+}

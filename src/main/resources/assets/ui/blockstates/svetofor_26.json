@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/svetofor_26"
+    },
+    "facing=east": {
+      "model": "ui:block/svetofor_26",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/svetofor_26",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/svetofor_26",
+      "y": 270
+    }
+  }
+}

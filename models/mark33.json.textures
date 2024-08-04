@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "block33"
+      },
+      "name": "default"
+    }
+  }
+}

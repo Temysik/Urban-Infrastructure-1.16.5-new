@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/walken_zebra"
+    },
+    "facing=east": {
+      "model": "ui:block/walken_zebra",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/walken_zebra",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/walken_zebra",
+      "y": 270
+    }
+  }
+}

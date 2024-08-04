@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "temporary20"
+      },
+      "name": "default"
+    }
+  }
+}

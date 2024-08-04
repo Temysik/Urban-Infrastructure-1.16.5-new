@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "window_new_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/speed_bump"
+    },
+    "facing=east": {
+      "model": "ui:block/speed_bump",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/speed_bump",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/speed_bump",
+      "y": 270
+    }
+  }
+}

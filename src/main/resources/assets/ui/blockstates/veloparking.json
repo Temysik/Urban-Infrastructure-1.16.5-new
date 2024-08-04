@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/veloparking"
+    },
+    "facing=east": {
+      "model": "ui:block/veloparking",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/veloparking",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/veloparking",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ui:custom/tv_station",
+  "textures": {
+    "all": "ui:blocks/tv_station_texture",
+    "particle": "ui:blocks/tv_station_texture",
+    "0": "ui:blocks/tv_station_texture"
+  }
+}
